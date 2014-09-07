@@ -1,0 +1,14 @@
+{
+    "name": "spindle/co",
+    "description": "cooperative multitasking library",
+    "require": {
+        "spindle/httpclient": "*"
+    },
+    "license": "CC0-1.0",
+    "authors": [
+        {
+            "name": "Hiraku NAKANO",
+            "email": "hiraku@tojiru.net"
+        }
+    ]
+}
