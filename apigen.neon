@@ -1,0 +1,3 @@
+# vim: set ft=yaml:
+source: src/
+destination: builds/api/

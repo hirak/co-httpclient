@@ -1,14 +1,30 @@
 {
-    "name": "spindle/co",
-    "description": "cooperative multitasking library",
-    "require": {
-        "spindle/httpclient": "*"
-    },
+    "name": "hirak/co-httpclient",
+    "description": "httpclient by coroutines",
     "license": "CC0-1.0",
     "authors": [
         {
             "name": "Hiraku NAKANO",
             "email": "hiraku@tojiru.net"
         }
-    ]
+    ],
+    "require": {
+        "php": ">=5.5",
+        "spindle/httpclient": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "pdepend/pdepend": "*",
+        "apigen/apigen": "v2.8.0",
+        "nette/nette": "<2.2",
+        "dg/texy": "<v2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spindle\\Co\\": "src"
+        },
+        "files": [
+            "src/co.php"
+        ]
+    }
 }
